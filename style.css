@@ -1,0 +1,148 @@
+
+*
+{  
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar
+{
+position: sticky;
+top: 0;
+z-index: 10;
+}
+.navbar-brand 
+{
+	padding-left:50px!important; 
+}
+#nav-bar ul li a:hover
+{
+	color:orange!important;
+}
+.navbar-toggler
+{
+border:none!important;
+}
+.nav-link
+{
+	font-weight: 600;
+	font-size: 16px;
+	padding-right: 40px!important;
+}
+.container {
+	position:relative;
+  display: table;
+  padding-top: 80px;
+  width: 100%;
+}
+.kkk {
+position:relative;
+  display: table;
+  padding-top: 80px;
+  width: 100%;	
+}
+.centralno
+{
+	text-align:center!important;
+	text-decoration:underline; 
+}
+#section3{
+
+background-color:lemonchiffon; 
+width: 100%;
+height: 100%;
+
+}
+#contact
+{
+	position:sticky;
+	font-size:12px;
+	font-weight: 700;
+  color:black;
+  
+ 
+  text-align: center;
+ 
+  background-color:lemonchiffon; 
+}
+.content {
+	position: absolute;
+	font-family:bradley hand itc;
+	font-weight: bold;
+	font-size:15px;
+  color:black;
+  border:1px solid black;
+  border-radius:20px; 
+  margin-left:250px!important; 
+  background-color:lemonchiffon; 
+  padding: 10px;
+}
+#tekst{
+display:inline-block;
+ border:1px solid black;
+  border-radius:20px; 
+   background-color:lemonchiffon; 	
+   padding: 10px!important;
+   width:fit-content; 
+
+}
+.contentD {
+	position: absolute;
+	left: 0;
+    top: 20%;
+    width: 100%;
+    font-family:bernard mt condensed;
+	font-size:20px;
+	font-weight: 700;
+  color:black;
+  text-align: center; 
+}
+.content2 {
+	position: absolute;
+	left: 0;
+    top: 20%;
+    width: 100%;
+    font-family:bernard mt condensed;
+	font-size:18px;
+	font-weight: 700;
+  color:black;
+  border:1px solid black;
+  border-radius:20px; 
+  text-align: center;
+  margin-left:420px!important; 
+  background-color:lemonchiffon; 
+  padding: 10px;
+}
+.button {
+  display: block; 
+  margin-left: 130px;
+  margin-right: 130px;
+  padding: 6px 10px;
+  background-color: orange;
+  color: black;
+  font-family:bernard mt condensed;
+	font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size:17px;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+
+
+}
+.button a:hover{
+	color:orange!important;
+}
+
+.jumbotron
+{
+  background-image: url(ONIW2R0.jpg);
+  background-size: contain;
+    height: 600px;
+    width: 100%;
+  
+}
+
