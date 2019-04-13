@@ -1,148 +1,166 @@
-
-*
-{  
-    margin: 0;
-    padding: 0;
-}
-
-#nav-bar
+body
 {
-position: sticky;
-top: 0;
-z-index: 10;
+  background-color: lemonchiffon !important;
+  width:100%;
+  height:100%;
+}
+.nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 .navbar-brand 
 {
 	padding-left:50px!important; 
 }
-#nav-bar ul li a:hover
-{
-	color:orange!important;
-}
-.navbar-toggler
-{
-border:none!important;
-}
+
 .nav-link
 {
-	font-weight: 600;
+	font-weight:600;
 	font-size: 16px;
-	padding-right: 40px!important;
+	padding-right: 20px!important;
 }
-.container {
-	position:relative;
-  display: table;
-  padding-top: 80px;
-  width: 100%;
-}
-.kkk {
-position:relative;
-  display: table;
-  padding-top: 80px;
-  width: 100%;	
-}
-.centralno
+.nav-link:hover
 {
-	text-align:center!important;
-	text-decoration:underline; 
+  color:orange !important;
 }
-#section3{
-
-background-color:lemonchiffon; 
-width: 100%;
-height: 100%;
-
-}
-#contact
+#section3
 {
-	position:sticky;
-	font-size:12px;
-	font-weight: 700;
-  color:black;
-  
- 
-  text-align: center;
- 
-  background-color:lemonchiffon; 
+  font-family: "My Custom Font2";
+  font-size:20px;
+  padding:40px;
 }
-.content {
-	position: absolute;
-	font-family:bradley hand itc;
+input{
+  outline: 1px solid crimson;
+  background-color: rgba(100,100,100,0.3);
+  color:crimson;
+}
+
+@font-face {
+  font-family: "My Custom Font";
+  src: url("Black is not a color.TTF");
+}
+@font-face {
+  font-family: "My Custom Font3";
+  src: url("Bradley-Regular.TTF");
+}
+@font-face {
+  font-family: "My Custom Font2";
+  src: url("BRADHI.TTF");
+}
+
+#d1, #d2 {
+	font-family:"My Custom Font2";
 	font-weight: bold;
-	font-size:15px;
+	font-size:20px;
   color:black;
   border:1px solid black;
   border-radius:20px; 
-  margin-left:250px!important; 
   background-color:lemonchiffon; 
-  padding: 10px;
+  padding: 25px;
+  margin-top: 15px;
 }
-#tekst{
-display:inline-block;
- border:1px solid black;
-  border-radius:20px; 
-   background-color:lemonchiffon; 	
-   padding: 10px!important;
-   width:fit-content; 
+#d2{
+ font-size:20px;
+ text-align: center;
+ height: 40%;
+}
+.projects
+{
+  text-align:center;
+  font-family: "My Custom Font";
+  color:brown;
+  font-size: 20px;
+  padding-top:6%;
+  padding-bottom: 12%;
+}
+
+.project{
+  height:200px;
+  width:200px;
+  border:2px solid orange;
+  border-radius: 12px;
+}
+#project1{
+background-image:url("pic1.jpeg");
+background-size: contain;
+
 
 }
-.contentD {
-	position: absolute;
-	left: 0;
-    top: 20%;
-    width: 100%;
-    font-family:bernard mt condensed;
-	font-size:20px;
-	font-weight: 700;
-  color:black;
+#project2{
+background-image:url("pic2.jpeg");
+background-size: contain;
+}
+#project3{
+background-image:url("pic3.jpeg");
+background-size: contain;
+}
+.contentD 
+{
+  
+  width: 100%;
   text-align: center; 
 }
-.content2 {
-	position: absolute;
-	left: 0;
-    top: 20%;
-    width: 100%;
-    font-family:bernard mt condensed;
-	font-size:18px;
-	font-weight: 700;
-  color:black;
-  border:1px solid black;
-  border-radius:20px; 
-  text-align: center;
-  margin-left:420px!important; 
-  background-color:lemonchiffon; 
-  padding: 10px;
-}
-.button {
-  display: block; 
-  margin-left: 130px;
-  margin-right: 130px;
+
+.button 
+{
+  margin:auto;
   padding: 6px 10px;
   background-color: orange;
   color: black;
-  font-family:bernard mt condensed;
-	font-weight: bold;
+  font-family:"My Custom Font";
+  font-weight: bold;
   border: 1px solid black;
   border-radius: 5px;
   font-weight: 700;
   font-size:17px;
-  line-height: normal;
-  text-decoration: none;
   text-align: center;
   text-transform: uppercase;
 
+}
+a.button:hover
+{
+  color: brown;
+}
+#linx
+{
+  color:crimson;
+  font-weight: bold;
+  
+}
+#linx:hover
+{
+  color:brown;
+}
+#section2{
+  background-image: url("pattern.jpg");
+  background-size: contain;
+  min-height: 600px;
+  width: 100%;
 
 }
-.button a:hover{
-	color:orange!important;
+.cl{
+  color:slategrey;
+}
+.cl:hover{
+color: crimson;
+}
+.j1{
+background-image: url("sakura.png") !important;
 }
 
 .jumbotron
 {
+  margin-bottom: auto !important;
+  box-sizing: border-box;
   background-image: url(ONIW2R0.jpg);
   background-size: contain;
-    height: 600px;
-    width: 100%;
-  
+  min-height: 800px;
+  width: 100%;
+}
+.jumbo
+{
+padding-top:3%;
 }
 
